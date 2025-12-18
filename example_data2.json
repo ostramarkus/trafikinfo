@@ -1,0 +1,3448 @@
+{
+    "timestamp": "2025-12-17T17:47:50",
+    "query": {
+        "queryTime": "2025-12-17T17:47:00",
+        "query": "740000759"
+    },
+    "stops": [
+        {
+            "id": "759",
+            "name": "Solna station",
+            "lat": 59.366504,
+            "lon": 18.009571,
+            "transport_modes": [
+                "TRAIN"
+            ],
+            "alerts": []
+        },
+        {
+            "id": "12746",
+            "name": "Solna station",
+            "lat": 59.364321,
+            "lon": 18.0123,
+            "transport_modes": [
+                "BUS"
+            ],
+            "alerts": []
+        },
+        {
+            "id": "12001",
+            "name": "Solna station",
+            "lat": 59.363754,
+            "lon": 18.008219,
+            "transport_modes": [
+                "TRAM"
+            ],
+            "alerts": [
+                {
+                    "type": "MAINTENANCE",
+                    "title": "Alla TvB SIK återöppnat",
+                    "text": "Spårvagnarna på linje 30 går åter till den ordinarie hållplatsen vid Sickla. Den tillfälliga hållplatsen på Uddvägen är stängd. Läs mer på sl.se."
+                }
+            ]
+        },
+        {
+            "id": "60049",
+            "name": "Solna station norra",
+            "lat": 59.36879,
+            "lon": 18.009422,
+            "transport_modes": [
+                "TRAIN"
+            ],
+            "alerts": []
+        },
+        {
+            "id": "12000",
+            "name": "Solna station västra",
+            "lat": 59.365121,
+            "lon": 18.009149,
+            "transport_modes": [],
+            "alerts": []
+        }
+    ],
+    "departures": [
+        {
+            "scheduled": "2025-12-17T17:40:00",
+            "realtime": "2025-12-17T17:47:20",
+            "delay": 440,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "176",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Mörby station",
+                "origin": {
+                    "id": "1313",
+                    "name": "Solbacka"
+                },
+                "destination": {
+                    "id": "11138",
+                    "name": "Mörby station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000704329633",
+                "start_date": "2025-12-17",
+                "technical_number": 10074
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "VR Sverige"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [
+                {
+                    "type": "OTHER_CAUSE",
+                    "title": "Försenad avgång",
+                    "text": "Försening upp till 6 minuter för buss linje 176 från Solbacka kl 16:39 mot Mörby station på grund av framkomlighetsproblem."
+                }
+            ],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T17:46:00",
+            "realtime": "2025-12-17T17:47:09",
+            "delay": 69,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "177",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Mörby station",
+                "origin": {
+                    "id": "9207",
+                    "name": "Skärvik"
+                },
+                "destination": {
+                    "id": "11138",
+                    "name": "Mörby station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000696993964",
+                "start_date": "2025-12-17",
+                "technical_number": 10302
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "VR Sverige"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T17:46:00",
+            "realtime": "2025-12-17T17:50:36",
+            "delay": 276,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "156",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Danderyds sjukhus",
+                "origin": {
+                    "id": "12718",
+                    "name": "Solna strand"
+                },
+                "destination": {
+                    "id": "11029",
+                    "name": "Danderyds sjukhus"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000694516745",
+                "start_date": "2025-12-17",
+                "technical_number": 24
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T17:47:00",
+            "realtime": "2025-12-17T17:47:04",
+            "delay": 4,
+            "canceled": false,
+            "route": {
+                "name": "Tvärbanan",
+                "designation": "30",
+                "transport_mode_code": 900,
+                "transport_mode": "TRAM",
+                "direction": "Sickla",
+                "origin": {
+                    "id": "12001",
+                    "name": "Solna station"
+                },
+                "destination": {
+                    "id": "12179",
+                    "name": "Sickla"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000706734757",
+                "start_date": "2025-12-17",
+                "technical_number": 21747
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "AB Stockholms Spårvägar"
+            },
+            "stop": {
+                "id": "12001",
+                "name": "Solna station",
+                "lat": 59.363754,
+                "lon": 18.008219
+            },
+            "scheduled_platform": {
+                "id": "9022050012001002",
+                "designation": "2"
+            },
+            "realtime_platform": {
+                "id": "9022050012001002",
+                "designation": "2"
+            },
+            "alerts": [
+                {
+                    "type": "MAINTENANCE",
+                    "title": "Tvärbanan 30 stannar åter vid ordinarie hållplats Sickla",
+                    "text": "Spårvagnarna på Tvärbanans linje 30 stannar åter vid den ordinarie ändhållplatsen Sickla.\n\nDen tillfälliga hållplatsen på Uddvägen är stängd, och spårvagnarna kommer inte längre stanna där för på- och avstigande.\n\nAnvänd reseplaneraren för att hitta det bästa alternativet för din resa."
+                }
+            ],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T17:48:00",
+            "realtime": "2025-12-17T17:48:50",
+            "delay": 50,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "177",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Skärvik",
+                "origin": {
+                    "id": "11138",
+                    "name": "Mörby station"
+                },
+                "destination": {
+                    "id": "9207",
+                    "name": "Skärvik"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000704330473",
+                "start_date": "2025-12-17",
+                "technical_number": 10072
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "VR Sverige"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "realtime_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "alerts": [],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T17:48:00",
+            "realtime": "2025-12-17T17:55:15",
+            "delay": 435,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "515",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Sundbybergs station",
+                "origin": {
+                    "id": "9942",
+                    "name": "Odenplan"
+                },
+                "destination": {
+                    "id": "10703",
+                    "name": "Sundbybergs station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000694516800",
+                "start_date": "2025-12-17",
+                "technical_number": 117
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "realtime_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "alerts": [],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T17:49:00",
+            "realtime": "2025-12-17T18:00:30",
+            "delay": 690,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "509",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Danderyds sjukhus",
+                "origin": {
+                    "id": "9801",
+                    "name": "Tomteboda postterminal"
+                },
+                "destination": {
+                    "id": "11029",
+                    "name": "Danderyds sjukhus"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000703304991",
+                "start_date": "2025-12-17",
+                "technical_number": 95
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [
+                {
+                    "type": "OTHER_CAUSE",
+                    "title": "Omlagd körväg",
+                    "text": "Buss linje 509 stannar inte vid Frösundaleden (3), Bollgatan (4), Vasalund (2) och Dalvägen (2) på grund av köer från och med 2025-12-17 kl 16:29.\nDetta gäller preliminärt till och med 2025-12-17 kl 18:33 och kan komma att ändras."
+                }
+            ],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T17:51:00",
+            "realtime": "2025-12-17T17:51:16",
+            "delay": 16,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "501",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Hallonbergen",
+                "origin": {
+                    "id": "9787",
+                    "name": "Frösundavik"
+                },
+                "destination": {
+                    "id": "12266",
+                    "name": "Hallonbergen"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000703306093",
+                "start_date": "2025-12-17",
+                "technical_number": 136
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "realtime_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "alerts": [
+                {
+                    "type": "CONSTRUCTION",
+                    "title": "Omlagd körväg",
+                    "text": "Buss linje 501 stannar inte vid Pyramidvägen på grund av vägarbete "
+                }
+            ],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T17:52:00",
+            "realtime": "2025-12-17T17:52:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "41",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Märsta",
+                "origin": {
+                    "id": "721",
+                    "name": "Södertälje centrum station"
+                },
+                "destination": {
+                    "id": "27",
+                    "name": "Märsta"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000668255265",
+                "start_date": "2025-12-17",
+                "technical_number": 2754
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "759",
+                "name": "Solna station",
+                "lat": 59.366504,
+                "lon": 18.009571
+            },
+            "scheduled_platform": {
+                "id": "9022050000759002",
+                "designation": "3"
+            },
+            "realtime_platform": {
+                "id": "9022050000759002",
+                "designation": "3"
+            },
+            "alerts": [
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Felaktiga utrop förekommer",
+                    "text": "På vissa tåg ropas det ut fel \"Nästa\" station. De felaktiga utropen beror på ett tekniskt fel. \nDet är inte alla tåg som har felet, bara vissa.\n\nFör att se om du påverkas: \nTitta ut på stationerna som du passerar på din resa och se om ditt tåg visar rätt station. \nOm tåget visar och ropar ut fel station, var extra uppmärksam på vilken station tåget är på och när det är dags för dig att kliva av.\n\nFelet är förmodligen kopplat till fordonets GPS. Utredning pågår för att se hur många fordon som har felet och vad som behöver göras för att laga felet.\nPrognos saknas för när felet kan vara lagat."
+                },
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Ny tidtabell från söndag den 14 december",
+                    "text": "Från söndag den 14 december gäller en ny tidtabell för pendeltågen. Sök din resa för att hitta det bästa alternativet för dig.\n\nTidtabellsskiftet innebär inga större förändringar för pendeltågslinjer eller sträckor men ändrade avgångstider förekommer."
+                }
+            ],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T17:53:00",
+            "realtime": "2025-12-17T17:53:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "41",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Södertälje centrum",
+                "origin": {
+                    "id": "27",
+                    "name": "Märsta"
+                },
+                "destination": {
+                    "id": "721",
+                    "name": "Södertälje centrum station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000668255554",
+                "start_date": "2025-12-17",
+                "technical_number": 2757
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "759",
+                "name": "Solna station",
+                "lat": 59.366504,
+                "lon": 18.009571
+            },
+            "scheduled_platform": {
+                "id": "9022050000759001",
+                "designation": "2"
+            },
+            "realtime_platform": {
+                "id": "9022050000759001",
+                "designation": "2"
+            },
+            "alerts": [
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Felaktiga utrop förekommer",
+                    "text": "På vissa tåg ropas det ut fel \"Nästa\" station. De felaktiga utropen beror på ett tekniskt fel. \nDet är inte alla tåg som har felet, bara vissa.\n\nFör att se om du påverkas: \nTitta ut på stationerna som du passerar på din resa och se om ditt tåg visar rätt station. \nOm tåget visar och ropar ut fel station, var extra uppmärksam på vilken station tåget är på och när det är dags för dig att kliva av.\n\nFelet är förmodligen kopplat till fordonets GPS. Utredning pågår för att se hur många fordon som har felet och vad som behöver göras för att laga felet.\nPrognos saknas för när felet kan vara lagat."
+                },
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Ny tidtabell från söndag den 14 december",
+                    "text": "Från söndag den 14 december gäller en ny tidtabell för pendeltågen. Sök din resa för att hitta det bästa alternativet för dig.\n\nTidtabellsskiftet innebär inga större förändringar för pendeltågslinjer eller sträckor men ändrade avgångstider förekommer."
+                }
+            ],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T17:53:00",
+            "realtime": "2025-12-17T17:53:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": "Tvärbanan",
+                "designation": "30",
+                "transport_mode_code": 900,
+                "transport_mode": "TRAM",
+                "direction": "Sickla",
+                "origin": {
+                    "id": "12001",
+                    "name": "Solna station"
+                },
+                "destination": {
+                    "id": "12179",
+                    "name": "Sickla"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000706734828",
+                "start_date": "2025-12-17",
+                "technical_number": 21753
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "AB Stockholms Spårvägar"
+            },
+            "stop": {
+                "id": "12001",
+                "name": "Solna station",
+                "lat": 59.363754,
+                "lon": 18.008219
+            },
+            "scheduled_platform": {
+                "id": "9022050012001001",
+                "designation": "1"
+            },
+            "realtime_platform": {
+                "id": "9022050012001001",
+                "designation": "1"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T17:54:00",
+            "realtime": "2025-12-17T17:54:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "515",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Odenplan",
+                "origin": {
+                    "id": "10703",
+                    "name": "Sundbybergs station"
+                },
+                "destination": {
+                    "id": "9942",
+                    "name": "Odenplan"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000694517480",
+                "start_date": "2025-12-17",
+                "technical_number": 118
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T17:54:00",
+            "realtime": "2025-12-17T17:56:20",
+            "delay": 140,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "176",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Stenhamra",
+                "origin": {
+                    "id": "11138",
+                    "name": "Mörby station"
+                },
+                "destination": {
+                    "id": "1313",
+                    "name": "Solbacka"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000704330661",
+                "start_date": "2025-12-17",
+                "technical_number": 10071
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "VR Sverige"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "realtime_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "alerts": [],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T17:54:45",
+            "realtime": "2025-12-17T17:54:45",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "513",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Solna centrum via Hagalund",
+                "origin": {
+                    "id": "12581",
+                    "name": "Solna centrum"
+                },
+                "destination": {
+                    "id": "12581",
+                    "name": "Solna centrum"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000694518982",
+                "start_date": "2025-12-17",
+                "technical_number": 37
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T17:55:00",
+            "realtime": "2025-12-17T17:56:49",
+            "delay": 109,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "176",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Mörby station",
+                "origin": {
+                    "id": "1313",
+                    "name": "Solbacka"
+                },
+                "destination": {
+                    "id": "11138",
+                    "name": "Mörby station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000704329859",
+                "start_date": "2025-12-17",
+                "technical_number": 10076
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "VR Sverige"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T17:55:00",
+            "realtime": "2025-12-17T17:55:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "501",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Frösundavik",
+                "origin": {
+                    "id": "12266",
+                    "name": "Hallonbergen"
+                },
+                "destination": {
+                    "id": "9787",
+                    "name": "Frösundavik"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000703305933",
+                "start_date": "2025-12-17",
+                "technical_number": 73
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [
+                {
+                    "type": "CONSTRUCTION",
+                    "title": "Omlagd körväg",
+                    "text": "Buss linje 501 stannar inte vid Pyramidvägen på grund av vägarbete "
+                }
+            ],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T17:57:00",
+            "realtime": "2025-12-17T17:57:41",
+            "delay": 41,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "515",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Sundbybergs station",
+                "origin": {
+                    "id": "9942",
+                    "name": "Odenplan"
+                },
+                "destination": {
+                    "id": "10703",
+                    "name": "Sundbybergs station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000694518188",
+                "start_date": "2025-12-17",
+                "technical_number": 119
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "realtime_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "alerts": [],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T17:58:00",
+            "realtime": "2025-12-17T17:59:57",
+            "delay": 117,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "509",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Tomteboda postterminal",
+                "origin": {
+                    "id": "11029",
+                    "name": "Danderyds sjukhus"
+                },
+                "destination": {
+                    "id": "9801",
+                    "name": "Tomteboda postterminal"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000708469625",
+                "start_date": "2025-12-17",
+                "technical_number": 94
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "realtime_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "alerts": [],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T18:00:00",
+            "realtime": "2025-12-17T18:00:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "41",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Upplands Väsby",
+                "origin": {
+                    "id": "776",
+                    "name": "Tumba station"
+                },
+                "destination": {
+                    "id": "782",
+                    "name": "Upplands Väsby"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000686437693",
+                "start_date": "2025-12-17",
+                "technical_number": 12954
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "759",
+                "name": "Solna station",
+                "lat": 59.366504,
+                "lon": 18.009571
+            },
+            "scheduled_platform": {
+                "id": "9022050000759002",
+                "designation": "3"
+            },
+            "realtime_platform": {
+                "id": "9022050000759002",
+                "designation": "3"
+            },
+            "alerts": [
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Felaktiga utrop förekommer",
+                    "text": "På vissa tåg ropas det ut fel \"Nästa\" station. De felaktiga utropen beror på ett tekniskt fel. \nDet är inte alla tåg som har felet, bara vissa.\n\nFör att se om du påverkas: \nTitta ut på stationerna som du passerar på din resa och se om ditt tåg visar rätt station. \nOm tåget visar och ropar ut fel station, var extra uppmärksam på vilken station tåget är på och när det är dags för dig att kliva av.\n\nFelet är förmodligen kopplat till fordonets GPS. Utredning pågår för att se hur många fordon som har felet och vad som behöver göras för att laga felet.\nPrognos saknas för när felet kan vara lagat."
+                },
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Ny tidtabell från söndag den 14 december",
+                    "text": "Från söndag den 14 december gäller en ny tidtabell för pendeltågen. Sök din resa för att hitta det bästa alternativet för dig.\n\nTidtabellsskiftet innebär inga större förändringar för pendeltågslinjer eller sträckor men ändrade avgångstider förekommer."
+                }
+            ],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T18:00:00",
+            "realtime": "2025-12-17T18:00:07",
+            "delay": 7,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "177",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Mörby station",
+                "origin": {
+                    "id": "9207",
+                    "name": "Skärvik"
+                },
+                "destination": {
+                    "id": "11138",
+                    "name": "Mörby station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000701238799",
+                "start_date": "2025-12-17",
+                "technical_number": 10303
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "VR Sverige"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T18:00:00",
+            "realtime": "2025-12-17T18:00:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": "Tvärbanan",
+                "designation": "30",
+                "transport_mode_code": 900,
+                "transport_mode": "TRAM",
+                "direction": "Sickla",
+                "origin": {
+                    "id": "12001",
+                    "name": "Solna station"
+                },
+                "destination": {
+                    "id": "12179",
+                    "name": "Sickla"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000706734902",
+                "start_date": "2025-12-17",
+                "technical_number": 21800
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "AB Stockholms Spårvägar"
+            },
+            "stop": {
+                "id": "12001",
+                "name": "Solna station",
+                "lat": 59.363754,
+                "lon": 18.008219
+            },
+            "scheduled_platform": {
+                "id": "9022050012001002",
+                "designation": "2"
+            },
+            "realtime_platform": {
+                "id": "9022050012001002",
+                "designation": "2"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:01:00",
+            "realtime": "2025-12-17T18:01:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "41",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Tumba",
+                "origin": {
+                    "id": "782",
+                    "name": "Upplands Väsby"
+                },
+                "destination": {
+                    "id": "776",
+                    "name": "Tumba station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000686437783",
+                "start_date": "2025-12-17",
+                "technical_number": 12957
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "759",
+                "name": "Solna station",
+                "lat": 59.366504,
+                "lon": 18.009571
+            },
+            "scheduled_platform": {
+                "id": "9022050000759001",
+                "designation": "2"
+            },
+            "realtime_platform": {
+                "id": "9022050000759001",
+                "designation": "2"
+            },
+            "alerts": [
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Felaktiga utrop förekommer",
+                    "text": "På vissa tåg ropas det ut fel \"Nästa\" station. De felaktiga utropen beror på ett tekniskt fel. \nDet är inte alla tåg som har felet, bara vissa.\n\nFör att se om du påverkas: \nTitta ut på stationerna som du passerar på din resa och se om ditt tåg visar rätt station. \nOm tåget visar och ropar ut fel station, var extra uppmärksam på vilken station tåget är på och när det är dags för dig att kliva av.\n\nFelet är förmodligen kopplat till fordonets GPS. Utredning pågår för att se hur många fordon som har felet och vad som behöver göras för att laga felet.\nPrognos saknas för när felet kan vara lagat."
+                },
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Ny tidtabell från söndag den 14 december",
+                    "text": "Från söndag den 14 december gäller en ny tidtabell för pendeltågen. Sök din resa för att hitta det bästa alternativet för dig.\n\nTidtabellsskiftet innebär inga större förändringar för pendeltågslinjer eller sträckor men ändrade avgångstider förekommer."
+                }
+            ],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T18:04:00",
+            "realtime": "2025-12-17T18:04:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "177",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Skärvik",
+                "origin": {
+                    "id": "11138",
+                    "name": "Mörby station"
+                },
+                "destination": {
+                    "id": "9207",
+                    "name": "Skärvik"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000704330734",
+                "start_date": "2025-12-17",
+                "technical_number": 10073
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "VR Sverige"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "realtime_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:07:00",
+            "realtime": "2025-12-17T18:07:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "41",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Märsta",
+                "origin": {
+                    "id": "721",
+                    "name": "Södertälje centrum station"
+                },
+                "destination": {
+                    "id": "27",
+                    "name": "Märsta"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000668248133",
+                "start_date": "2025-12-17",
+                "technical_number": 2656
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "759",
+                "name": "Solna station",
+                "lat": 59.366504,
+                "lon": 18.009571
+            },
+            "scheduled_platform": {
+                "id": "9022050000759002",
+                "designation": "3"
+            },
+            "realtime_platform": {
+                "id": "9022050000759002",
+                "designation": "3"
+            },
+            "alerts": [
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Felaktiga utrop förekommer",
+                    "text": "På vissa tåg ropas det ut fel \"Nästa\" station. De felaktiga utropen beror på ett tekniskt fel. \nDet är inte alla tåg som har felet, bara vissa.\n\nFör att se om du påverkas: \nTitta ut på stationerna som du passerar på din resa och se om ditt tåg visar rätt station. \nOm tåget visar och ropar ut fel station, var extra uppmärksam på vilken station tåget är på och när det är dags för dig att kliva av.\n\nFelet är förmodligen kopplat till fordonets GPS. Utredning pågår för att se hur många fordon som har felet och vad som behöver göras för att laga felet.\nPrognos saknas för när felet kan vara lagat."
+                },
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Ny tidtabell från söndag den 14 december",
+                    "text": "Från söndag den 14 december gäller en ny tidtabell för pendeltågen. Sök din resa för att hitta det bästa alternativet för dig.\n\nTidtabellsskiftet innebär inga större förändringar för pendeltågslinjer eller sträckor men ändrade avgångstider förekommer."
+                }
+            ],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T18:07:00",
+            "realtime": "2025-12-17T18:07:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "515",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Sundbybergs station",
+                "origin": {
+                    "id": "9942",
+                    "name": "Odenplan"
+                },
+                "destination": {
+                    "id": "10703",
+                    "name": "Sundbybergs station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000675685229",
+                "start_date": "2025-12-17",
+                "technical_number": 121
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "realtime_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:07:00",
+            "realtime": "2025-12-17T18:07:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": "Tvärbanan",
+                "designation": "30",
+                "transport_mode_code": 900,
+                "transport_mode": "TRAM",
+                "direction": "Sickla",
+                "origin": {
+                    "id": "12001",
+                    "name": "Solna station"
+                },
+                "destination": {
+                    "id": "12179",
+                    "name": "Sickla"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000706734974",
+                "start_date": "2025-12-17",
+                "technical_number": 21807
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "AB Stockholms Spårvägar"
+            },
+            "stop": {
+                "id": "12001",
+                "name": "Solna station",
+                "lat": 59.363754,
+                "lon": 18.008219
+            },
+            "scheduled_platform": {
+                "id": "9022050012001001",
+                "designation": "1"
+            },
+            "realtime_platform": {
+                "id": "9022050012001001",
+                "designation": "1"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:08:00",
+            "realtime": "2025-12-17T18:08:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "41",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Södertälje centrum",
+                "origin": {
+                    "id": "27",
+                    "name": "Märsta"
+                },
+                "destination": {
+                    "id": "721",
+                    "name": "Södertälje centrum station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000668248239",
+                "start_date": "2025-12-17",
+                "technical_number": 2657
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "759",
+                "name": "Solna station",
+                "lat": 59.366504,
+                "lon": 18.009571
+            },
+            "scheduled_platform": {
+                "id": "9022050000759001",
+                "designation": "2"
+            },
+            "realtime_platform": {
+                "id": "9022050000759001",
+                "designation": "2"
+            },
+            "alerts": [
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Felaktiga utrop förekommer",
+                    "text": "På vissa tåg ropas det ut fel \"Nästa\" station. De felaktiga utropen beror på ett tekniskt fel. \nDet är inte alla tåg som har felet, bara vissa.\n\nFör att se om du påverkas: \nTitta ut på stationerna som du passerar på din resa och se om ditt tåg visar rätt station. \nOm tåget visar och ropar ut fel station, var extra uppmärksam på vilken station tåget är på och när det är dags för dig att kliva av.\n\nFelet är förmodligen kopplat till fordonets GPS. Utredning pågår för att se hur många fordon som har felet och vad som behöver göras för att laga felet.\nPrognos saknas för när felet kan vara lagat."
+                },
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Ny tidtabell från söndag den 14 december",
+                    "text": "Från söndag den 14 december gäller en ny tidtabell för pendeltågen. Sök din resa för att hitta det bästa alternativet för dig.\n\nTidtabellsskiftet innebär inga större förändringar för pendeltågslinjer eller sträckor men ändrade avgångstider förekommer."
+                }
+            ],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T18:09:00",
+            "realtime": "2025-12-17T18:09:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "509",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Danderyds sjukhus",
+                "origin": {
+                    "id": "9801",
+                    "name": "Tomteboda postterminal"
+                },
+                "destination": {
+                    "id": "11029",
+                    "name": "Danderyds sjukhus"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000703306252",
+                "start_date": "2025-12-17",
+                "technical_number": 99
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:09:45",
+            "realtime": "2025-12-17T18:09:45",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "513",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Solna centrum via Hagalund",
+                "origin": {
+                    "id": "12581",
+                    "name": "Solna centrum"
+                },
+                "destination": {
+                    "id": "12581",
+                    "name": "Solna centrum"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000694520729",
+                "start_date": "2025-12-17",
+                "technical_number": 38
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:10:00",
+            "realtime": "2025-12-17T18:10:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "176",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Mörby station",
+                "origin": {
+                    "id": "1313",
+                    "name": "Solbacka"
+                },
+                "destination": {
+                    "id": "11138",
+                    "name": "Mörby station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000704330132",
+                "start_date": "2025-12-17",
+                "technical_number": 10078
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "VR Sverige"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T18:10:00",
+            "realtime": "2025-12-17T18:10:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "515",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Odenplan",
+                "origin": {
+                    "id": "10703",
+                    "name": "Sundbybergs station"
+                },
+                "destination": {
+                    "id": "9942",
+                    "name": "Odenplan"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000694519616",
+                "start_date": "2025-12-17",
+                "technical_number": 120
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:13:00",
+            "realtime": "2025-12-17T18:13:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "501",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Hallonbergen",
+                "origin": {
+                    "id": "9787",
+                    "name": "Frösundavik"
+                },
+                "destination": {
+                    "id": "12266",
+                    "name": "Hallonbergen"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000703307429",
+                "start_date": "2025-12-17",
+                "technical_number": 77
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "realtime_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:13:00",
+            "realtime": "2025-12-17T18:13:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": "Tvärbanan",
+                "designation": "30",
+                "transport_mode_code": 900,
+                "transport_mode": "TRAM",
+                "direction": "Sickla",
+                "origin": {
+                    "id": "12001",
+                    "name": "Solna station"
+                },
+                "destination": {
+                    "id": "12179",
+                    "name": "Sickla"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000706735046",
+                "start_date": "2025-12-17",
+                "technical_number": 21813
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "AB Stockholms Spårvägar"
+            },
+            "stop": {
+                "id": "12001",
+                "name": "Solna station",
+                "lat": 59.363754,
+                "lon": 18.008219
+            },
+            "scheduled_platform": {
+                "id": "9022050012001002",
+                "designation": "2"
+            },
+            "realtime_platform": {
+                "id": "9022050012001002",
+                "designation": "2"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:14:00",
+            "realtime": "2025-12-17T18:14:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "176",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Stenhamra",
+                "origin": {
+                    "id": "11138",
+                    "name": "Mörby station"
+                },
+                "destination": {
+                    "id": "1313",
+                    "name": "Solbacka"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000704330966",
+                "start_date": "2025-12-17",
+                "technical_number": 10073
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "VR Sverige"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "realtime_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:15:00",
+            "realtime": "2025-12-17T18:15:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "40",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Uppsala C",
+                "origin": {
+                    "id": "721",
+                    "name": "Södertälje centrum station"
+                },
+                "destination": {
+                    "id": "5",
+                    "name": "Uppsala Centralstation"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000702188165",
+                "start_date": "2025-12-17",
+                "technical_number": 2256
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "759",
+                "name": "Solna station",
+                "lat": 59.366504,
+                "lon": 18.009571
+            },
+            "scheduled_platform": {
+                "id": "9022050000759002",
+                "designation": "3"
+            },
+            "realtime_platform": {
+                "id": "9022050000759002",
+                "designation": "3"
+            },
+            "alerts": [
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Felaktiga utrop förekommer",
+                    "text": "På vissa tåg ropas det ut fel \"Nästa\" station. De felaktiga utropen beror på ett tekniskt fel. \nDet är inte alla tåg som har felet, bara vissa.\n\nFör att se om du påverkas: \nTitta ut på stationerna som du passerar på din resa och se om ditt tåg visar rätt station. \nOm tåget visar och ropar ut fel station, var extra uppmärksam på vilken station tåget är på och när det är dags för dig att kliva av.\n\nFelet är förmodligen kopplat till fordonets GPS. Utredning pågår för att se hur många fordon som har felet och vad som behöver göras för att laga felet.\nPrognos saknas för när felet kan vara lagat."
+                },
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Ny tidtabell från söndag den 14 december",
+                    "text": "Från söndag den 14 december gäller en ny tidtabell för pendeltågen. Sök din resa för att hitta det bästa alternativet för dig.\n\nTidtabellsskiftet innebär inga större förändringar för pendeltågslinjer eller sträckor men ändrade avgångstider förekommer."
+                }
+            ],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T18:15:00",
+            "realtime": "2025-12-17T18:15:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "40",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Tumba",
+                "origin": {
+                    "id": "5",
+                    "name": "Uppsala Centralstation"
+                },
+                "destination": {
+                    "id": "776",
+                    "name": "Tumba station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000668241230",
+                "start_date": "2025-12-17",
+                "technical_number": 2257
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "759",
+                "name": "Solna station",
+                "lat": 59.366504,
+                "lon": 18.009571
+            },
+            "scheduled_platform": {
+                "id": "9022050000759001",
+                "designation": "2"
+            },
+            "realtime_platform": {
+                "id": "9022050000759001",
+                "designation": "2"
+            },
+            "alerts": [
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Felaktiga utrop förekommer",
+                    "text": "På vissa tåg ropas det ut fel \"Nästa\" station. De felaktiga utropen beror på ett tekniskt fel. \nDet är inte alla tåg som har felet, bara vissa.\n\nFör att se om du påverkas: \nTitta ut på stationerna som du passerar på din resa och se om ditt tåg visar rätt station. \nOm tåget visar och ropar ut fel station, var extra uppmärksam på vilken station tåget är på och när det är dags för dig att kliva av.\n\nFelet är förmodligen kopplat till fordonets GPS. Utredning pågår för att se hur många fordon som har felet och vad som behöver göras för att laga felet.\nPrognos saknas för när felet kan vara lagat."
+                },
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Ny tidtabell från söndag den 14 december",
+                    "text": "Från söndag den 14 december gäller en ny tidtabell för pendeltågen. Sök din resa för att hitta det bästa alternativet för dig.\n\nTidtabellsskiftet innebär inga större förändringar för pendeltågslinjer eller sträckor men ändrade avgångstider förekommer."
+                }
+            ],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T18:16:00",
+            "realtime": "2025-12-17T18:16:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "177",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Mörby station",
+                "origin": {
+                    "id": "9207",
+                    "name": "Skärvik"
+                },
+                "destination": {
+                    "id": "11138",
+                    "name": "Mörby station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000704330423",
+                "start_date": "2025-12-17",
+                "technical_number": 10304
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "VR Sverige"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T18:16:00",
+            "realtime": "2025-12-17T18:16:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "156",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Danderyds sjukhus",
+                "origin": {
+                    "id": "12718",
+                    "name": "Solna strand"
+                },
+                "destination": {
+                    "id": "11029",
+                    "name": "Danderyds sjukhus"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000694520557",
+                "start_date": "2025-12-17",
+                "technical_number": 25
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:17:00",
+            "realtime": "2025-12-17T18:17:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "515",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Sundbybergs station",
+                "origin": {
+                    "id": "9942",
+                    "name": "Odenplan"
+                },
+                "destination": {
+                    "id": "10703",
+                    "name": "Sundbybergs station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000694520508",
+                "start_date": "2025-12-17",
+                "technical_number": 122
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "realtime_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:18:00",
+            "realtime": "2025-12-17T18:18:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "509",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Tomteboda postterminal",
+                "origin": {
+                    "id": "11029",
+                    "name": "Danderyds sjukhus"
+                },
+                "destination": {
+                    "id": "9801",
+                    "name": "Tomteboda postterminal"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000708469797",
+                "start_date": "2025-12-17",
+                "technical_number": 96
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "realtime_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:20:00",
+            "realtime": "2025-12-17T18:20:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": "Tvärbanan",
+                "designation": "30",
+                "transport_mode_code": 900,
+                "transport_mode": "TRAM",
+                "direction": "Sickla",
+                "origin": {
+                    "id": "12001",
+                    "name": "Solna station"
+                },
+                "destination": {
+                    "id": "12179",
+                    "name": "Sickla"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000706735120",
+                "start_date": "2025-12-17",
+                "technical_number": 21820
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "AB Stockholms Spårvägar"
+            },
+            "stop": {
+                "id": "12001",
+                "name": "Solna station",
+                "lat": 59.363754,
+                "lon": 18.008219
+            },
+            "scheduled_platform": {
+                "id": "9022050012001001",
+                "designation": "1"
+            },
+            "realtime_platform": {
+                "id": "9022050012001001",
+                "designation": "1"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:21:00",
+            "realtime": "2025-12-17T18:21:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "177",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Skärvik",
+                "origin": {
+                    "id": "11138",
+                    "name": "Mörby station"
+                },
+                "destination": {
+                    "id": "9207",
+                    "name": "Skärvik"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000704331017",
+                "start_date": "2025-12-17",
+                "technical_number": 10074
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "VR Sverige"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "realtime_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:22:00",
+            "realtime": "2025-12-17T18:22:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "41",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Märsta",
+                "origin": {
+                    "id": "721",
+                    "name": "Södertälje centrum station"
+                },
+                "destination": {
+                    "id": "27",
+                    "name": "Märsta"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000668255480",
+                "start_date": "2025-12-17",
+                "technical_number": 2756
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "759",
+                "name": "Solna station",
+                "lat": 59.366504,
+                "lon": 18.009571
+            },
+            "scheduled_platform": {
+                "id": "9022050000759002",
+                "designation": "3"
+            },
+            "realtime_platform": {
+                "id": "9022050000759002",
+                "designation": "3"
+            },
+            "alerts": [
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Felaktiga utrop förekommer",
+                    "text": "På vissa tåg ropas det ut fel \"Nästa\" station. De felaktiga utropen beror på ett tekniskt fel. \nDet är inte alla tåg som har felet, bara vissa.\n\nFör att se om du påverkas: \nTitta ut på stationerna som du passerar på din resa och se om ditt tåg visar rätt station. \nOm tåget visar och ropar ut fel station, var extra uppmärksam på vilken station tåget är på och när det är dags för dig att kliva av.\n\nFelet är förmodligen kopplat till fordonets GPS. Utredning pågår för att se hur många fordon som har felet och vad som behöver göras för att laga felet.\nPrognos saknas för när felet kan vara lagat."
+                },
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Ny tidtabell från söndag den 14 december",
+                    "text": "Från söndag den 14 december gäller en ny tidtabell för pendeltågen. Sök din resa för att hitta det bästa alternativet för dig.\n\nTidtabellsskiftet innebär inga större förändringar för pendeltågslinjer eller sträckor men ändrade avgångstider förekommer."
+                }
+            ],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T18:22:45",
+            "realtime": "2025-12-17T18:22:45",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "513",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Solna centrum via Hagalund",
+                "origin": {
+                    "id": "12581",
+                    "name": "Solna centrum"
+                },
+                "destination": {
+                    "id": "12581",
+                    "name": "Solna centrum"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000694522267",
+                "start_date": "2025-12-17",
+                "technical_number": 39
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:23:00",
+            "realtime": "2025-12-17T18:23:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "41",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Södertälje centrum",
+                "origin": {
+                    "id": "27",
+                    "name": "Märsta"
+                },
+                "destination": {
+                    "id": "721",
+                    "name": "Södertälje centrum station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000668255947",
+                "start_date": "2025-12-17",
+                "technical_number": 2759
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "759",
+                "name": "Solna station",
+                "lat": 59.366504,
+                "lon": 18.009571
+            },
+            "scheduled_platform": {
+                "id": "9022050000759001",
+                "designation": "2"
+            },
+            "realtime_platform": {
+                "id": "9022050000759001",
+                "designation": "2"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:24:00",
+            "realtime": "2025-12-17T18:24:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "176",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Mörby station",
+                "origin": {
+                    "id": "1313",
+                    "name": "Solbacka"
+                },
+                "destination": {
+                    "id": "11138",
+                    "name": "Mörby station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000704330373",
+                "start_date": "2025-12-17",
+                "technical_number": 10080
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "VR Sverige"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T18:25:00",
+            "realtime": "2025-12-17T18:25:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "515",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Odenplan",
+                "origin": {
+                    "id": "10703",
+                    "name": "Sundbybergs station"
+                },
+                "destination": {
+                    "id": "9942",
+                    "name": "Odenplan"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000694521157",
+                "start_date": "2025-12-17",
+                "technical_number": 123
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:25:00",
+            "realtime": "2025-12-17T18:25:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "501",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Frösundavik",
+                "origin": {
+                    "id": "12266",
+                    "name": "Hallonbergen"
+                },
+                "destination": {
+                    "id": "9787",
+                    "name": "Frösundavik"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000703307687",
+                "start_date": "2025-12-17",
+                "technical_number": 78
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:27:00",
+            "realtime": "2025-12-17T18:27:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": "Tvärbanan",
+                "designation": "30",
+                "transport_mode_code": 900,
+                "transport_mode": "TRAM",
+                "direction": "Sickla",
+                "origin": {
+                    "id": "12001",
+                    "name": "Solna station"
+                },
+                "destination": {
+                    "id": "12179",
+                    "name": "Sickla"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000706735157",
+                "start_date": "2025-12-17",
+                "technical_number": 21827
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "AB Stockholms Spårvägar"
+            },
+            "stop": {
+                "id": "12001",
+                "name": "Solna station",
+                "lat": 59.363754,
+                "lon": 18.008219
+            },
+            "scheduled_platform": {
+                "id": "9022050012001002",
+                "designation": "2"
+            },
+            "realtime_platform": {
+                "id": "9022050012001002",
+                "designation": "2"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:28:00",
+            "realtime": "2025-12-17T18:28:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "509",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Danderyds sjukhus",
+                "origin": {
+                    "id": "9801",
+                    "name": "Tomteboda postterminal"
+                },
+                "destination": {
+                    "id": "11029",
+                    "name": "Danderyds sjukhus"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000703307465",
+                "start_date": "2025-12-17",
+                "technical_number": 101
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:29:00",
+            "realtime": "2025-12-17T18:29:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "177",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Mörby station",
+                "origin": {
+                    "id": "9207",
+                    "name": "Skärvik"
+                },
+                "destination": {
+                    "id": "11138",
+                    "name": "Mörby station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000709725336",
+                "start_date": "2025-12-17",
+                "technical_number": 10305
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "VR Sverige"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T18:29:00",
+            "realtime": "2025-12-17T18:29:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "515",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Sundbybergs station",
+                "origin": {
+                    "id": "9942",
+                    "name": "Odenplan"
+                },
+                "destination": {
+                    "id": "10703",
+                    "name": "Sundbybergs station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000694521772",
+                "start_date": "2025-12-17",
+                "technical_number": 124
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "realtime_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:29:00",
+            "realtime": "2025-12-17T18:29:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "176",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Stenhamra",
+                "origin": {
+                    "id": "11138",
+                    "name": "Mörby station"
+                },
+                "destination": {
+                    "id": "1313",
+                    "name": "Solbacka"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000696996479",
+                "start_date": "2025-12-17",
+                "technical_number": 10075
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "VR Sverige"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "realtime_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:30:00",
+            "realtime": "2025-12-17T18:30:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "41",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Upplands Väsby",
+                "origin": {
+                    "id": "776",
+                    "name": "Tumba station"
+                },
+                "destination": {
+                    "id": "782",
+                    "name": "Upplands Väsby"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000686437751",
+                "start_date": "2025-12-17",
+                "technical_number": 12956
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "759",
+                "name": "Solna station",
+                "lat": 59.366504,
+                "lon": 18.009571
+            },
+            "scheduled_platform": {
+                "id": "9022050000759002",
+                "designation": "3"
+            },
+            "realtime_platform": {
+                "id": "9022050000759002",
+                "designation": "3"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:34:00",
+            "realtime": "2025-12-17T18:34:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": "Tvärbanan",
+                "designation": "30",
+                "transport_mode_code": 900,
+                "transport_mode": "TRAM",
+                "direction": "Sickla",
+                "origin": {
+                    "id": "12001",
+                    "name": "Solna station"
+                },
+                "destination": {
+                    "id": "12179",
+                    "name": "Sickla"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000706735231",
+                "start_date": "2025-12-17",
+                "technical_number": 21834
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "AB Stockholms Spårvägar"
+            },
+            "stop": {
+                "id": "12001",
+                "name": "Solna station",
+                "lat": 59.363754,
+                "lon": 18.008219
+            },
+            "scheduled_platform": {
+                "id": "9022050012001001",
+                "designation": "1"
+            },
+            "realtime_platform": {
+                "id": "9022050012001001",
+                "designation": "1"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:36:00",
+            "realtime": "2025-12-17T18:36:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "177",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Skärvik",
+                "origin": {
+                    "id": "11138",
+                    "name": "Mörby station"
+                },
+                "destination": {
+                    "id": "9207",
+                    "name": "Skärvik"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000696996626",
+                "start_date": "2025-12-17",
+                "technical_number": 10075
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "VR Sverige"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "realtime_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:37:00",
+            "realtime": "2025-12-17T18:37:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "41",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Märsta",
+                "origin": {
+                    "id": "721",
+                    "name": "Södertälje centrum station"
+                },
+                "destination": {
+                    "id": "27",
+                    "name": "Märsta"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000668248275",
+                "start_date": "2025-12-17",
+                "technical_number": 2658
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "759",
+                "name": "Solna station",
+                "lat": 59.366504,
+                "lon": 18.009571
+            },
+            "scheduled_platform": {
+                "id": "9022050000759002",
+                "designation": "3"
+            },
+            "realtime_platform": {
+                "id": "9022050000759002",
+                "designation": "3"
+            },
+            "alerts": [
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Felaktiga utrop förekommer",
+                    "text": "På vissa tåg ropas det ut fel \"Nästa\" station. De felaktiga utropen beror på ett tekniskt fel. \nDet är inte alla tåg som har felet, bara vissa.\n\nFör att se om du påverkas: \nTitta ut på stationerna som du passerar på din resa och se om ditt tåg visar rätt station. \nOm tåget visar och ropar ut fel station, var extra uppmärksam på vilken station tåget är på och när det är dags för dig att kliva av.\n\nFelet är förmodligen kopplat till fordonets GPS. Utredning pågår för att se hur många fordon som har felet och vad som behöver göras för att laga felet.\nPrognos saknas för när felet kan vara lagat."
+                },
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Ny tidtabell från söndag den 14 december",
+                    "text": "Från söndag den 14 december gäller en ny tidtabell för pendeltågen. Sök din resa för att hitta det bästa alternativet för dig.\n\nTidtabellsskiftet innebär inga större förändringar för pendeltågslinjer eller sträckor men ändrade avgångstider förekommer."
+                }
+            ],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T18:37:00",
+            "realtime": "2025-12-17T18:37:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "176",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Mörby station",
+                "origin": {
+                    "id": "1313",
+                    "name": "Solbacka"
+                },
+                "destination": {
+                    "id": "11138",
+                    "name": "Mörby station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000704330599",
+                "start_date": "2025-12-17",
+                "technical_number": 10082
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "VR Sverige"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T18:37:17",
+            "realtime": "2025-12-17T18:37:17",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "513",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Solna centrum via Hagalund",
+                "origin": {
+                    "id": "12581",
+                    "name": "Solna centrum"
+                },
+                "destination": {
+                    "id": "12581",
+                    "name": "Solna centrum"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000694523791",
+                "start_date": "2025-12-17",
+                "technical_number": 40
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:38:00",
+            "realtime": "2025-12-17T18:38:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "41",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Södertälje centrum",
+                "origin": {
+                    "id": "27",
+                    "name": "Märsta"
+                },
+                "destination": {
+                    "id": "721",
+                    "name": "Södertälje centrum station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000668248381",
+                "start_date": "2025-12-17",
+                "technical_number": 2659
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "759",
+                "name": "Solna station",
+                "lat": 59.366504,
+                "lon": 18.009571
+            },
+            "scheduled_platform": {
+                "id": "9022050000759001",
+                "designation": "2"
+            },
+            "realtime_platform": {
+                "id": "9022050000759001",
+                "designation": "2"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:38:00",
+            "realtime": "2025-12-17T18:38:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "509",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Tomteboda postterminal",
+                "origin": {
+                    "id": "11029",
+                    "name": "Danderyds sjukhus"
+                },
+                "destination": {
+                    "id": "9801",
+                    "name": "Tomteboda postterminal"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000708469887",
+                "start_date": "2025-12-17",
+                "technical_number": 100
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "realtime_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:40:00",
+            "realtime": "2025-12-17T18:40:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "515",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Odenplan",
+                "origin": {
+                    "id": "10703",
+                    "name": "Sundbybergs station"
+                },
+                "destination": {
+                    "id": "9942",
+                    "name": "Odenplan"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000694522979",
+                "start_date": "2025-12-17",
+                "technical_number": 125
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:41:00",
+            "realtime": "2025-12-17T18:41:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": "Tvärbanan",
+                "designation": "30",
+                "transport_mode_code": 900,
+                "transport_mode": "TRAM",
+                "direction": "Sickla",
+                "origin": {
+                    "id": "12001",
+                    "name": "Solna station"
+                },
+                "destination": {
+                    "id": "12179",
+                    "name": "Sickla"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000706735303",
+                "start_date": "2025-12-17",
+                "technical_number": 21841
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "AB Stockholms Spårvägar"
+            },
+            "stop": {
+                "id": "12001",
+                "name": "Solna station",
+                "lat": 59.363754,
+                "lon": 18.008219
+            },
+            "scheduled_platform": {
+                "id": "9022050012001002",
+                "designation": "2"
+            },
+            "realtime_platform": {
+                "id": "9022050012001002",
+                "designation": "2"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:43:00",
+            "realtime": "2025-12-17T18:43:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "501",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Hallonbergen",
+                "origin": {
+                    "id": "9787",
+                    "name": "Frösundavik"
+                },
+                "destination": {
+                    "id": "12266",
+                    "name": "Hallonbergen"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000703309017",
+                "start_date": "2025-12-17",
+                "technical_number": 79
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "realtime_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:44:00",
+            "realtime": "2025-12-17T18:44:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "515",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Sundbybergs station",
+                "origin": {
+                    "id": "9942",
+                    "name": "Odenplan"
+                },
+                "destination": {
+                    "id": "10703",
+                    "name": "Sundbybergs station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000694523403",
+                "start_date": "2025-12-17",
+                "technical_number": 126
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "Keolis"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "realtime_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:44:00",
+            "realtime": "2025-12-17T18:44:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "176",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Stenhamra",
+                "origin": {
+                    "id": "11138",
+                    "name": "Mörby station"
+                },
+                "destination": {
+                    "id": "1313",
+                    "name": "Solbacka"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000696996802",
+                "start_date": "2025-12-17",
+                "technical_number": 10077
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "VR Sverige"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "realtime_platform": {
+                "id": "9022050012746001",
+                "designation": "A"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:45:00",
+            "realtime": "2025-12-17T18:45:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "40",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Uppsala C",
+                "origin": {
+                    "id": "721",
+                    "name": "Södertälje centrum station"
+                },
+                "destination": {
+                    "id": "5",
+                    "name": "Uppsala Centralstation"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000702188332",
+                "start_date": "2025-12-17",
+                "technical_number": 2258
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "759",
+                "name": "Solna station",
+                "lat": 59.366504,
+                "lon": 18.009571
+            },
+            "scheduled_platform": {
+                "id": "9022050000759002",
+                "designation": "3"
+            },
+            "realtime_platform": {
+                "id": "9022050000759002",
+                "designation": "3"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:45:00",
+            "realtime": "2025-12-17T18:45:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "40",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Tumba",
+                "origin": {
+                    "id": "5",
+                    "name": "Uppsala Centralstation"
+                },
+                "destination": {
+                    "id": "776",
+                    "name": "Tumba station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000668241493",
+                "start_date": "2025-12-17",
+                "technical_number": 2259
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "759",
+                "name": "Solna station",
+                "lat": 59.366504,
+                "lon": 18.009571
+            },
+            "scheduled_platform": {
+                "id": "9022050000759001",
+                "designation": "2"
+            },
+            "realtime_platform": {
+                "id": "9022050000759001",
+                "designation": "2"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:45:00",
+            "realtime": "2025-12-17T18:45:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "177",
+                "transport_mode_code": 700,
+                "transport_mode": "BUS",
+                "direction": "Mörby station",
+                "origin": {
+                    "id": "9207",
+                    "name": "Skärvik"
+                },
+                "destination": {
+                    "id": "11138",
+                    "name": "Mörby station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000696995960",
+                "start_date": "2025-12-17",
+                "technical_number": 10306
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "VR Sverige"
+            },
+            "stop": {
+                "id": "12746",
+                "name": "Solna station",
+                "lat": 59.364321,
+                "lon": 18.0123
+            },
+            "scheduled_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "realtime_platform": {
+                "id": "9022050012746002",
+                "designation": "B"
+            },
+            "alerts": [],
+            "is_realtime": false
+        }
+    ]
+}

@@ -1,0 +1,546 @@
+{
+    "timestamp": "2025-12-17T17:44:44",
+    "query": {
+        "queryTime": "2025-12-17T17:44:00",
+        "query": "740000757"
+    },
+    "stops": [
+        {
+            "id": "757",
+            "name": "Skogås",
+            "lat": 59.218418,
+            "lon": 18.154231,
+            "transport_modes": [
+                "TRAIN"
+            ],
+            "alerts": []
+        }
+    ],
+    "departures": [
+        {
+            "scheduled": "2025-12-17T17:49:00",
+            "realtime": "2025-12-17T17:49:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "43",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Kungsängen",
+                "origin": {
+                    "id": "12036",
+                    "name": "Västerhaninge"
+                },
+                "destination": {
+                    "id": "284",
+                    "name": "Kungsängen"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000668275189",
+                "start_date": "2025-12-17",
+                "technical_number": 2856
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "757",
+                "name": "Skogås",
+                "lat": 59.218418,
+                "lon": 18.154231
+            },
+            "scheduled_platform": {
+                "id": "9022050000757002",
+                "designation": "2"
+            },
+            "realtime_platform": {
+                "id": "9022050000757002",
+                "designation": "2"
+            },
+            "alerts": [
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Felaktiga utrop förekommer",
+                    "text": "På vissa tåg ropas det ut fel \"Nästa\" station. De felaktiga utropen beror på ett tekniskt fel. \nDet är inte alla tåg som har felet, bara vissa.\n\nFör att se om du påverkas: \nTitta ut på stationerna som du passerar på din resa och se om ditt tåg visar rätt station. \nOm tåget visar och ropar ut fel station, var extra uppmärksam på vilken station tåget är på och när det är dags för dig att kliva av.\n\nFelet är förmodligen kopplat till fordonets GPS. Utredning pågår för att se hur många fordon som har felet och vad som behöver göras för att laga felet.\nPrognos saknas för när felet kan vara lagat."
+                },
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Ny tidtabell från söndag den 14 december",
+                    "text": "Från söndag den 14 december gäller en ny tidtabell för pendeltågen. Sök din resa för att hitta det bästa alternativet för dig.\n\nTidtabellsskiftet innebär inga större förändringar för pendeltågslinjer eller sträckor men ändrade avgångstider förekommer."
+                }
+            ],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T17:56:00",
+            "realtime": "2025-12-17T17:56:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "43",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Västerhaninge",
+                "origin": {
+                    "id": "660",
+                    "name": "Bålsta station (SL-pendeln) (Håbo)"
+                },
+                "destination": {
+                    "id": "12036",
+                    "name": "Västerhaninge"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000656755322",
+                "start_date": "2025-12-17",
+                "technical_number": 2555
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "757",
+                "name": "Skogås",
+                "lat": 59.218418,
+                "lon": 18.154231
+            },
+            "scheduled_platform": {
+                "id": "9022050000757001",
+                "designation": "1"
+            },
+            "realtime_platform": {
+                "id": "9022050000757001",
+                "designation": "1"
+            },
+            "alerts": [
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Felaktiga utrop förekommer",
+                    "text": "På vissa tåg ropas det ut fel \"Nästa\" station. De felaktiga utropen beror på ett tekniskt fel. \nDet är inte alla tåg som har felet, bara vissa.\n\nFör att se om du påverkas: \nTitta ut på stationerna som du passerar på din resa och se om ditt tåg visar rätt station. \nOm tåget visar och ropar ut fel station, var extra uppmärksam på vilken station tåget är på och när det är dags för dig att kliva av.\n\nFelet är förmodligen kopplat till fordonets GPS. Utredning pågår för att se hur många fordon som har felet och vad som behöver göras för att laga felet.\nPrognos saknas för när felet kan vara lagat."
+                },
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Ny tidtabell från söndag den 14 december",
+                    "text": "Från söndag den 14 december gäller en ny tidtabell för pendeltågen. Sök din resa för att hitta det bästa alternativet för dig.\n\nTidtabellsskiftet innebär inga större förändringar för pendeltågslinjer eller sträckor men ändrade avgångstider förekommer."
+                }
+            ],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T18:04:00",
+            "realtime": "2025-12-17T18:04:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "43",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Bålsta",
+                "origin": {
+                    "id": "12036",
+                    "name": "Västerhaninge"
+                },
+                "destination": {
+                    "id": "660",
+                    "name": "Bålsta station (SL-pendeln) (Håbo)"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000656755533",
+                "start_date": "2025-12-17",
+                "technical_number": 2556
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "757",
+                "name": "Skogås",
+                "lat": 59.218418,
+                "lon": 18.154231
+            },
+            "scheduled_platform": {
+                "id": "9022050000757002",
+                "designation": "2"
+            },
+            "realtime_platform": {
+                "id": "9022050000757002",
+                "designation": "2"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:04:00",
+            "realtime": "2025-12-17T18:04:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "43",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Handen",
+                "origin": {
+                    "id": "710",
+                    "name": "Kallhäll"
+                },
+                "destination": {
+                    "id": "699",
+                    "name": "Handen station"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000668259117",
+                "start_date": "2025-12-17",
+                "technical_number": 12855
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "757",
+                "name": "Skogås",
+                "lat": 59.218418,
+                "lon": 18.154231
+            },
+            "scheduled_platform": {
+                "id": "9022050000757001",
+                "designation": "1"
+            },
+            "realtime_platform": {
+                "id": "9022050000757001",
+                "designation": "1"
+            },
+            "alerts": [
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Felaktiga utrop förekommer",
+                    "text": "På vissa tåg ropas det ut fel \"Nästa\" station. De felaktiga utropen beror på ett tekniskt fel. \nDet är inte alla tåg som har felet, bara vissa.\n\nFör att se om du påverkas: \nTitta ut på stationerna som du passerar på din resa och se om ditt tåg visar rätt station. \nOm tåget visar och ropar ut fel station, var extra uppmärksam på vilken station tåget är på och när det är dags för dig att kliva av.\n\nFelet är förmodligen kopplat till fordonets GPS. Utredning pågår för att se hur många fordon som har felet och vad som behöver göras för att laga felet.\nPrognos saknas för när felet kan vara lagat."
+                },
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Ny tidtabell från söndag den 14 december",
+                    "text": "Från söndag den 14 december gäller en ny tidtabell för pendeltågen. Sök din resa för att hitta det bästa alternativet för dig.\n\nTidtabellsskiftet innebär inga större förändringar för pendeltågslinjer eller sträckor men ändrade avgångstider förekommer."
+                }
+            ],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T18:11:00",
+            "realtime": "2025-12-17T18:11:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "43",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Västerhaninge",
+                "origin": {
+                    "id": "284",
+                    "name": "Kungsängen"
+                },
+                "destination": {
+                    "id": "12036",
+                    "name": "Västerhaninge"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000656767555",
+                "start_date": "2025-12-17",
+                "technical_number": 2855
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "757",
+                "name": "Skogås",
+                "lat": 59.218418,
+                "lon": 18.154231
+            },
+            "scheduled_platform": {
+                "id": "9022050000757001",
+                "designation": "1"
+            },
+            "realtime_platform": {
+                "id": "9022050000757001",
+                "designation": "1"
+            },
+            "alerts": [
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Felaktiga utrop förekommer",
+                    "text": "På vissa tåg ropas det ut fel \"Nästa\" station. De felaktiga utropen beror på ett tekniskt fel. \nDet är inte alla tåg som har felet, bara vissa.\n\nFör att se om du påverkas: \nTitta ut på stationerna som du passerar på din resa och se om ditt tåg visar rätt station. \nOm tåget visar och ropar ut fel station, var extra uppmärksam på vilken station tåget är på och när det är dags för dig att kliva av.\n\nFelet är förmodligen kopplat till fordonets GPS. Utredning pågår för att se hur många fordon som har felet och vad som behöver göras för att laga felet.\nPrognos saknas för när felet kan vara lagat."
+                },
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Ny tidtabell från söndag den 14 december",
+                    "text": "Från söndag den 14 december gäller en ny tidtabell för pendeltågen. Sök din resa för att hitta det bästa alternativet för dig.\n\nTidtabellsskiftet innebär inga större förändringar för pendeltågslinjer eller sträckor men ändrade avgångstider förekommer."
+                }
+            ],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T18:12:00",
+            "realtime": "2025-12-17T18:12:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "43",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Bro",
+                "origin": {
+                    "id": "699",
+                    "name": "Handen station"
+                },
+                "destination": {
+                    "id": "687",
+                    "name": "Bro"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000702199363",
+                "start_date": "2025-12-17",
+                "technical_number": 12858
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "757",
+                "name": "Skogås",
+                "lat": 59.218418,
+                "lon": 18.154231
+            },
+            "scheduled_platform": {
+                "id": "9022050000757002",
+                "designation": "2"
+            },
+            "realtime_platform": {
+                "id": "9022050000757002",
+                "designation": "2"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:19:00",
+            "realtime": "2025-12-17T18:19:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "43",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Kungsängen",
+                "origin": {
+                    "id": "12036",
+                    "name": "Västerhaninge"
+                },
+                "destination": {
+                    "id": "284",
+                    "name": "Kungsängen"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000668275230",
+                "start_date": "2025-12-17",
+                "technical_number": 2858
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "757",
+                "name": "Skogås",
+                "lat": 59.218418,
+                "lon": 18.154231
+            },
+            "scheduled_platform": {
+                "id": "9022050000757002",
+                "designation": "2"
+            },
+            "realtime_platform": {
+                "id": "9022050000757002",
+                "designation": "2"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:26:00",
+            "realtime": "2025-12-17T18:26:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "43",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Västerhaninge",
+                "origin": {
+                    "id": "660",
+                    "name": "Bålsta station (SL-pendeln) (Håbo)"
+                },
+                "destination": {
+                    "id": "12036",
+                    "name": "Västerhaninge"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000656755773",
+                "start_date": "2025-12-17",
+                "technical_number": 2557
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "757",
+                "name": "Skogås",
+                "lat": 59.218418,
+                "lon": 18.154231
+            },
+            "scheduled_platform": {
+                "id": "9022050000757001",
+                "designation": "1"
+            },
+            "realtime_platform": {
+                "id": "9022050000757001",
+                "designation": "1"
+            },
+            "alerts": [
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Felaktiga utrop förekommer",
+                    "text": "På vissa tåg ropas det ut fel \"Nästa\" station. De felaktiga utropen beror på ett tekniskt fel. \nDet är inte alla tåg som har felet, bara vissa.\n\nFör att se om du påverkas: \nTitta ut på stationerna som du passerar på din resa och se om ditt tåg visar rätt station. \nOm tåget visar och ropar ut fel station, var extra uppmärksam på vilken station tåget är på och när det är dags för dig att kliva av.\n\nFelet är förmodligen kopplat till fordonets GPS. Utredning pågår för att se hur många fordon som har felet och vad som behöver göras för att laga felet.\nPrognos saknas för när felet kan vara lagat."
+                },
+                {
+                    "type": "TECHNICAL_PROBLEM",
+                    "title": "Ny tidtabell från söndag den 14 december",
+                    "text": "Från söndag den 14 december gäller en ny tidtabell för pendeltågen. Sök din resa för att hitta det bästa alternativet för dig.\n\nTidtabellsskiftet innebär inga större förändringar för pendeltågslinjer eller sträckor men ändrade avgångstider förekommer."
+                }
+            ],
+            "is_realtime": true
+        },
+        {
+            "scheduled": "2025-12-17T18:34:00",
+            "realtime": "2025-12-17T18:34:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "43",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Bålsta",
+                "origin": {
+                    "id": "12036",
+                    "name": "Västerhaninge"
+                },
+                "destination": {
+                    "id": "660",
+                    "name": "Bålsta station (SL-pendeln) (Håbo)"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000656785745",
+                "start_date": "2025-12-17",
+                "technical_number": 2558
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "757",
+                "name": "Skogås",
+                "lat": 59.218418,
+                "lon": 18.154231
+            },
+            "scheduled_platform": {
+                "id": "9022050000757002",
+                "designation": "2"
+            },
+            "realtime_platform": {
+                "id": "9022050000757002",
+                "designation": "2"
+            },
+            "alerts": [],
+            "is_realtime": false
+        },
+        {
+            "scheduled": "2025-12-17T18:41:00",
+            "realtime": "2025-12-17T18:41:00",
+            "delay": 0,
+            "canceled": false,
+            "route": {
+                "name": null,
+                "designation": "43",
+                "transport_mode_code": 100,
+                "transport_mode": "TRAIN",
+                "direction": "Västerhaninge",
+                "origin": {
+                    "id": "284",
+                    "name": "Kungsängen"
+                },
+                "destination": {
+                    "id": "12036",
+                    "name": "Västerhaninge"
+                }
+            },
+            "trip": {
+                "trip_id": "14010000656767725",
+                "start_date": "2025-12-17",
+                "technical_number": 2857
+            },
+            "agency": {
+                "id": "505000000000000001",
+                "name": "AB Storstockholms Lokaltrafik",
+                "operator": "SJ Stockholmståg"
+            },
+            "stop": {
+                "id": "757",
+                "name": "Skogås",
+                "lat": 59.218418,
+                "lon": 18.154231
+            },
+            "scheduled_platform": {
+                "id": "9022050000757001",
+                "designation": "1"
+            },
+            "realtime_platform": {
+                "id": "9022050000757001",
+                "designation": "1"
+            },
+            "alerts": [],
+            "is_realtime": false
+        }
+    ]
+}

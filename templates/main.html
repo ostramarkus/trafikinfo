@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skogås station</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #eee;
+            color: #444;
+            font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 22px;
+        }
+
+        #container {
+            margin: auto;
+            max-width: 800px;
+        }
+
+        #container > header {
+            background-color: #222;
+            color: #fff;
+            padding: 0.5em;
+            position: sticky;
+            top: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #container > header p {
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 1.5em;
+            margin-top: 0;
+        }
+        
+        article {
+            background-color: #fff;
+            margin-bottom: 1em;
+            padding: 1em;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        table {
+            width: 100%;
+            text-align: left;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 0.5em;
+        }
+
+        table p {
+            margin:0;
+        }
+
+        tr {
+            border-bottom: 1px solid #ccc;
+        }
+
+        body tr:nth-child(even) {
+            background-color: #f6f6f6;
+        }
+
+        .updated {
+            color: #777;
+        }
+
+        .designation {
+            background-color: #999;
+            color: #fff;
+            font-weight: bold;
+            display: inline-block;
+            padding: 0.1em 0.3em;
+            font-size: 0.8em;
+            text-align: center;
+        }
+
+        .train {
+            border-radius: 999px;
+            background-color: #cc417f;
+            min-width: 30px;
+        }
+
+        .bus {
+            background-color: #111;            
+        }
+
+        #reload {
+            font-weight: bold;
+            display: inline-block;
+            background-color: #444;
+            border-radius: 4px;
+            padding: 3px 5px 2px 6px;
+            border: 1px solid #555;
+            cursor: pointer;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <p id="time">00:00:00</p>
+            <p class="updated">Uppdaterad: {{ tables[0].time.strftime('%Y-%m-%d %H:%M:%S') }}</p>
+            <p id="reload">⟳</p>
+        </header>
+        <main>
+        {% for sd in tables: %}
+        <article>
+            <header>
+                <h1>Avgångar från {{ sd.station_name }}</h1>
+            </header>
+             <table>
+                <thead>
+                    <tr>
+                        <th>Avgång</th>
+                        <th>Linje</th>
+                        <th>Mot</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for d in sd.departures %}
+                    <tr>
+                        <td>
+                            {% if d.scheduled != d.realtime: %}
+                                <b>{{ d.realtime }}</b>
+                                <s>{{ d.scheduled }}</s>
+                            {% else: %}
+                                {{ d.scheduled }}
+                            {% endif %}
+                        </td>
+                        <td>
+                            <p class="designation {{ d.transportation_mode }}">{{ d.designation }}</p>
+                        </td>
+                        <td>{{ d.direction }}</td>
+                        <td>{{ d.delay }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </article>
+        {% endfor %}
+    </main>
+    </div>
+
+    <script>
+        function startTime() {
+            const today = new Date();
+            let h = today.getHours();
+            let m = today.getMinutes();
+            let s = today.getSeconds();
+            m = checkTime(m);
+            s = checkTime(s);
+            document.getElementById('time').innerHTML =  h + ":" + m + ":" + s;
+            setTimeout(startTime, 1000);
+        }
+
+        function checkTime(i) {
+            if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+            return i;
+        }
+        startTime();
+
+        document.getElementById('reload').addEventListener('click', function() {
+            window.location.reload();
+        });
+
+    </script>
+</body>
+</html>
