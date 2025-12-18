@@ -20,7 +20,6 @@ def get_station_data(station_id = 740000757):
     station_data = parse_station_data(data)
     return station_data
 
-
 def get_data(station_id = 740000757):
     """ Load JSON-data from Trafiklab API """
     api_key = os.getenv("API_KEY")
@@ -28,7 +27,6 @@ def get_data(station_id = 740000757):
     response = requests.get(api_url)
     json_data = response.json()
     return json_data
-
 
 def get_example_data():
     """ Get example data (for development and testing) """
@@ -39,7 +37,6 @@ def get_example_data():
 def parse_datetime(datetime_str):
     return datetime.strptime(datetime_str, "%Y-%m-%dT%H:%M:%S")
 
-
 def parse_station_data(data):
     """ Parse JSON data and return dict of departures """    
     departures = []
@@ -47,7 +44,8 @@ def parse_station_data(data):
     for d in data['departures']:
         delay_str = ""
         if d['delay'] > 60:
-            delay_str = f'{math.floor(d['delay'] / 60)} min. sen'
+            minutes = math.floor(d['delay'] / 60)
+            delay_str = str(minutes) + ' min. sen'
 
         departure = {
             'direction' : d['route']['direction'],
@@ -70,8 +68,8 @@ def parse_station_data(data):
 
 def main():
     load_dotenv()
-    for d in get_station_data():
-        print(d)
+    data = get_station_data()
+    print(data)
 
 if __name__ == "__main__":
     main()
