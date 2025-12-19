@@ -16,17 +16,23 @@ def get_station_data(station_id = 740000757):
         data = get_example_data()
     else:
         data = get_data(station_id = station_id)
+        if 'errorCode' in data:
+            return False
 
     station_data = parse_station_data(data)
     return station_data
+
 
 def get_data(station_id = 740000757):
     """ Load JSON-data from Trafiklab API """
     api_key = os.getenv("API_KEY")
     api_url = f'https://realtime-api.trafiklab.se/v1/departures/{station_id}?key={api_key}'
+
     response = requests.get(api_url)
+    print(dir(response))
     json_data = response.json()
     return json_data
+
 
 def get_example_data():
     """ Get example data (for development and testing) """
@@ -34,8 +40,10 @@ def get_example_data():
         json_data = json_file.read()
     return json.loads(json_data) 
 
+
 def parse_datetime(datetime_str):
     return datetime.strptime(datetime_str, "%Y-%m-%dT%H:%M:%S")
+
 
 def parse_station_data(data):
     """ Parse JSON data and return dict of departures """    
