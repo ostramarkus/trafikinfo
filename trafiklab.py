@@ -29,7 +29,6 @@ def get_data(station_id = 740000757):
     api_url = f'https://realtime-api.trafiklab.se/v1/departures/{station_id}?key={api_key}'
 
     response = requests.get(api_url)
-    print(dir(response))
     json_data = response.json()
     return json_data
 
